@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Lentelė js</title>
+  </head>
+  <body>
+    <h1>Append table</h1>
+      <input id="inputValue_name" type="text">
+      <input id="inputValue_srname" type="text">
+      <input id="inputValue_age" type="number"><br>
+      <button onclick="myCreateFunction()">Create row</button>
+      <button onclick="delete_first()">Delete first</button>
+      <button onclick="delete_last()">Delete last</button>
+    <table id="myTable">
+      <tr>
+        <th id="orange" >Vardas</th>
+        <th id ="brown">Pavardė</th>
+        <th id="orange">Amžius</th>
+      </tr>
+      <tr>
+        <td>Jonas</td>
+        <td>Rimkus</td>
+        <td>54</td>
+      </tr>
+      <tr>
+        <td>Vestina</td>
+        <td>Petronytė</td>
+        <td>31</td>
+      </tr>
+      <tr>
+        <td>Marius</td>
+        <td>Dulinskas</td>
+        <td>23</td>
+      </tr>
+    </table>
+    <script src="script.js">
+    </script>
+  </body>
+</html>

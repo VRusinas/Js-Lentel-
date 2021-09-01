@@ -1,0 +1,41 @@
+body{
+  margin: 10px;
+}
+table{
+  font-family:arial;
+  font-size: 25px;
+  border-collapse: collapse;
+  background-color: #382c6e;
+  color: white;
+}
+th, td{
+  width:20%;
+  padding:30px;
+  border: 1px solid #fec107;
+}
+th
+{
+  text-align:center;
+  color: black;
+  text-transform: uppercase;
+}
+input{
+  width:13.5%;
+  margin-bottom: 10px;
+}
+button{
+  display: inline-block;
+  width:14%;
+    margin-bottom: 10px;
+}
+#orange
+{
+  background-color: #fec107;
+}
+#brown
+{
+  background-color: #e5ae30;
+}
+td:hover{
+  background: #0a0132;
+}
